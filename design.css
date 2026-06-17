@@ -13,21 +13,47 @@ p.clickMe#bottom{
     margin:0px;    
 }
 
+#titleHeadContainer, #titleHead{
+    border: 2px solid white; 
+}
+
 #titleHeadContainer{
     width:fit-content;
     height:fit-content;
-    border: 2px solid white;
     background-color:rgb(99, 1, 1)
 }
 
 #titleHead{
     display:flex;
     background-color: rgb(107, 0, 0);
-    border:2px solid white;
 }
 
 a#satanicTemple{
     color:black;
     text-decoration:line-through;
 
+}
+
+img#codexGigasDevil{
+    width: 100px;
+    image-rendering: pixelated;
+}
+
+#CGSContainer{
+    position:relative;
+}
+
+div.overlay{
+    position:absolute;
+    inset: 0px;
+    background-image: url("https://thoughtcatalog.com/wp-content/uploads/2018/08/satanicsymbols-featured.jpg?w=1920&h=1280&crop=1");
+    display:flex;
+    opacity: .7;
+}
+
+#CGSContainer{
+    width:fit-content;
+    position:relative;
+    left:435px;
+    bottom: 100px;
 }
