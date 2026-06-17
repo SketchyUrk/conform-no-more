@@ -1,5 +1,9 @@
 #titleHead{
     background-color: red;
     width:fit-content;
+    border:1px solid black;
+}
+
+a#satanicTemple{
     color:black;
 }
